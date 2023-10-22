@@ -124,5 +124,14 @@
 		"description": "Keep an eye on your incubated eggs and buddy distance",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/pokemongo/plugin.json",
 		"packages": "com.nianticlabs.pokemongo,com.nianticlabs.pokemongo.ares"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.samsunghealth",
+		"name": "Samsung Health Plugin for Smartspacer",
+		"description": "Steps & sleep tracking from Samsung Health",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/samsunghealth/plugin.json",
+		"packages": "com.sec.android.app.shealth"
 	}
 ]

@@ -23,6 +23,10 @@ Next, create an issue in this repository. Use the "New Plugin" option, and fill 
 
 Once the issue has been created, an automated GitHub Action will check over your input, make sure the JSON is valid, and reply with confirmation. Your plugin will then be manually approved, before being allowed onto the Repository.
 
+### Plugins Hosted on Google Play or another Store
+
+If your plugin is hosted on Google Play, or another store where the user is able to have updates installed by a store app, you do not need to use the `plugin.json` system. Simply provide a web link which will open to the details page of your app in the store app (this must also be accessible on the web - `market://` links are not valid) in the submission form instead of the JSON link.
+
 ## Updating Plugins
 
 You do not need to create a new issue to update plugins, simply update your JSON file.

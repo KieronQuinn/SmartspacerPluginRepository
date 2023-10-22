@@ -1,1 +1,11 @@
-[]
+[
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.aftership",
+		"name": "Aftership Plugin for Smartspacer",
+		"description": "Follow your packages' progress from Aftership",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/aftership/plugin.json",
+		"packages": "com.aftership.AfterShip"
+	}
+]

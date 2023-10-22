@@ -43,5 +43,14 @@
 		"description": "Count down to an important day",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/countdown/plugin.json",
 		"packages": ""
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugins.datausage",
+		"name": "Data Usage Plugin for Smartspacer",
+		"description": "Monitor your data usage for mobile data or Wi-Fi",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/datausage/plugin.json",
+		"packages": ""
 	}
 ]

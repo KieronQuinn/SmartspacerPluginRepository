@@ -160,5 +160,14 @@
 		"description": "Live ride status and car information in Smartspace",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/uber/plugin.json",
 		"packages": "com.ubercab"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugins.yahoosport",
+		"name": "Yahoo Sport Plugin for Smartspacer",
+		"description": "Game scores your your favourite teams",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/yahoosport/plugin.json",
+		"packages": "com.yahoo.mobile.client.android.sportacular"
 	}
 ]

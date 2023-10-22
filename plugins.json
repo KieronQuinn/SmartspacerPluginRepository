@@ -142,5 +142,14 @@
 		"description": "Sunrise and sunset times in a Complication",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/sunrisesunset/plugin.json",
 		"packages": ""
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.tasker",
+		"name": "Tasker Plugin for Smartspacer",
+		"description": "Custom Tasker Targets, Complications and Requirements, with endless possibilities",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/tasker/plugin.json",
+		"packages": "net.dinglisch.android.taskerm"
 	}
 ]

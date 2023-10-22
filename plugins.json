@@ -97,5 +97,14 @@
 		"description": "Flight information, tickets, train times, loyalty cards, and more",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlewallet/plugin.json",
 		"packages": "com.google.android.apps.walletnfcrel"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.healthconnect",
+		"name": "Health Connect Plugin for Smartspacer",
+		"description": "Health statistic Complications",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/healthconnect/plugin.json",
+		"packages": ""
 	}
 ]

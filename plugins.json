@@ -34,5 +34,14 @@
 		"description": "Get weather from an alternative to Google Weather",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/bbcweather/plugin.json",
 		"packages": "bbc.mobile.weather"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.countdown",
+		"name": "Countdown Plugin for Smartspacer",
+		"description": "Count down to an important day",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/countdown/plugin.json",
+		"packages": ""
 	}
 ]

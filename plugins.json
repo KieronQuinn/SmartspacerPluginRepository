@@ -61,5 +61,14 @@
 		"description": "Watch your connected or remote devices' battery levels",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/energymonitor/plugin.json",
 		"packages": "strange.watch.longevity.ion"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlefinance",
+		"name": "Google Finance Plugin for Smartspacer",
+		"description": "Keep an eye on your investments",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlefinance/plugin.json",
+		"packages": ""
 	}
 ]

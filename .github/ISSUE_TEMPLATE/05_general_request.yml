@@ -3,7 +3,7 @@ description: Create a request to be reviewed, for example to report abuse from a
 title: "[Request]"
 labels: ["request"]
 assignees:
-  - SmartspacerTest
+  - SmartspacerBot
 body:
   - type: markdown
     attributes:

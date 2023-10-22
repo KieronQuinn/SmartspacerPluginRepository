@@ -3,7 +3,7 @@ description: Update the information about a Smartspacer Plugin
 title: "[Update]"
 labels: ["update_submission"]
 assignees:
-  - SmartspacerTest
+  - SmartspacerBot
 body:
   - type: markdown
     attributes:

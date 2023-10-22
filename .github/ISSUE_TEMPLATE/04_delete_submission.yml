@@ -3,7 +3,7 @@ description: Remove a Smartspacer Plugin from the repository
 title: "[Delete]"
 labels: ["delete_submission"]
 assignees:
-  - SmartspacerTest
+  - SmartspacerBot
 body:
   - type: markdown
     attributes:

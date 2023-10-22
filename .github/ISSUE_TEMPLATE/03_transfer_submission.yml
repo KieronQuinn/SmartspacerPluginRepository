@@ -3,7 +3,7 @@ description: Transfer ownership of a Smartspacer Plugin to a new user
 title: "[Transfer]"
 labels: ["transfer_submission"]
 assignees:
-  - SmartspacerTest
+  - SmartspacerBot
 body:
   - type: markdown
     attributes:

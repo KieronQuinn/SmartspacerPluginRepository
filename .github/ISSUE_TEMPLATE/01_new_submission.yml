@@ -3,7 +3,7 @@ description: Submit a new Smartspacer Plugin
 title: "[Submission]"
 labels: ["submission"]
 assignees:
-  - SmartspacerTest
+  - SmartspacerBot
 body:
   - type: markdown
     attributes:

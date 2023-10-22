@@ -43,7 +43,7 @@ async function getUserId(username) {
 	const request = require('request');
 
     var requestWithHeaders = request.defaults({
-        headers: {'User-Agent': "https://github.com/SmartspacerTest/Test-Actions-Repo"}
+        headers: {'User-Agent': "https://github.com/KieronQuinn/SmartspacerPluginRepository"}
     })
 
 	return new Promise((resolve, reject) => {

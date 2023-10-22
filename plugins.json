@@ -16,5 +16,14 @@
 		"description": "Get live updates on your Amazon orders",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/amazon/plugin.json",
 		"packages": "com.amazon.mShop.android.shopping,in.amazon.mShop.android.shopping"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugins.battery",
+		"name": "Battery Plugin for Smartspacer",
+		"description": "Watch your connected devices' battery levels",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/battery/plugin.json",
+		"packages": "com.google.android.settings.intelligence"
 	}
 ]

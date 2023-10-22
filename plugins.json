@@ -7,5 +7,14 @@
 		"description": "Follow your packages' progress from Aftership",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/aftership/plugin.json",
 		"packages": "com.aftership.AfterShip"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.amazon",
+		"name": "Amazon Plugin for Smartspacer",
+		"description": "Get live updates on your Amazon orders",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/amazon/plugin.json",
+		"packages": "com.amazon.mShop.android.shopping,in.amazon.mShop.android.shopping"
 	}
 ]

@@ -88,5 +88,14 @@
 		"description": "Traffic condition alerts",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlemaps/plugin.json",
 		"packages": "com.google.android.apps.maps"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlewallet",
+		"name": "Google Wallet Plugin for Smartspacer",
+		"description": "Flight information, tickets, train times, loyalty cards, and more",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlewallet/plugin.json",
+		"packages": "com.google.android.apps.walletnfcrel"
 	}
 ]

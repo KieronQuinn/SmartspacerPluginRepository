@@ -34,3 +34,11 @@ body:
       description: Re-enter the GitHub username to transfer to, for verifcation.
     validations:
       required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this request, you agree to follow our [Code of Conduct](https://github.com/KieronQuinn/SmartspacerPluginRepository/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this repository's Code of Conduct
+          required: true

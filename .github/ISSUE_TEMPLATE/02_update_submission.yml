@@ -47,3 +47,11 @@ body:
       label: Supported Apps
       description: "**Optional**: Enter a comma-separated list of the package names your plugin works with. This means Smartspacer will show your plugin in the \"Recommended\" section for users with that app installed."
       placeholder: com.company.app,com.company2.app
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this request, you agree to follow our [Code of Conduct](https://github.com/KieronQuinn/SmartspacerPluginRepository/blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this repository's Code of Conduct
+          required: true

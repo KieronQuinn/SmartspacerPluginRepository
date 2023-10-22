@@ -1,0 +1,25 @@
+name: Delete Plugin
+description: Remove a Smartspacer Plugin from the repository
+title: "[Delete]"
+labels: ["delete_submission"]
+assignees:
+  - SmartspacerTest
+body:
+  - type: markdown
+    attributes:
+      value: |
+         This will remove your plugin from the repository. It does not delete your uploads, only the link to it. 
+         
+         Users would still be able to find the links to a deleted plugin by viewing the git history, so make sure you've also deleted your repository or store listing if you want to remove the plugin entirely.
+  - type: input
+    id: package_name
+    attributes:
+      label: Package Name
+      description: The package name of your plugin you wish to delete
+    validations:
+      required: true
+  - type: textarea
+    id: ignored
+    attributes:
+      label: Reason for deletion
+      description: "**Optional:** If you wish, you can specify the reason you wish to delete the plugin."

@@ -1,0 +1,39 @@
+name: General Request
+description: Create a request to be reviewed, for example to report abuse from a plugin or requesting transfer of a plugin owned by account you no longer have access to
+title: "[Request]"
+labels: ["request"]
+assignees:
+  - SmartspacerTest
+body:
+  - type: markdown
+    attributes:
+      value: |
+         This option is for requests related to the Smartspacer Plugin Repository **only**. 
+         
+         If you want to raise an issue with the Smartspacer app, please open an issue on the Smartspacer repo. 
+        
+         Plugin specific issues should be sent to plugin authors, and will be ignored/closed if opened on this repository.
+         
+         **Important:** Abuse of this option will result in your account being blocked.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Request type
+      options:
+        - Request a plugin transfer without access to the old account
+        - Report abuse from a plugin
+        - Other
+  - type: input
+    id: package_name
+    attributes:
+      label: Package Name
+      description: Enter the package name of the plugin on the repository
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: Your request
+      description: Enter your request, such as the reason for requesting a transfer or what abuse the plugin is doing.
+    validations:
+      required: true

@@ -1,0 +1,48 @@
+on:
+  issues:
+    types: [opened]
+jobs:
+  setup:
+    if: ${{ github.event.issue.labels[0].name == 'update_submission' }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      
+      - run: npm install request
+
+      - uses: stefanbuck/github-issue-praser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/02_update_submission.yml
+          
+      - run: cat ~/issue-parser-result.json
+          
+      - run: node ./js/validate_update_submission.js >> $GITHUB_OUTPUT
+        env:
+          ISSUE_USER_ID: ${{ github.event.issue.user.id }}
+        id: validate
+      
+      - name: Read comment.txt
+        id: comment
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./comment.txt          
+          
+      - run: echo "${{ toJson(steps.validate.outputs) }}"
+        
+      - uses: peter-evans/create-or-update-comment@v2
+        if: "${{ steps.validate.outputs.result == 'true' }}"
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          body: "${{ steps.comment.outputs.content }}"
+
+      - uses: peter-evans/close-issue@v1
+        if: "${{ steps.validate.outputs.result == 'false' }}"
+        with:
+          comment: "${{ steps.comment.outputs.content }}"
+          
+      - uses: OSDKDev/lock-issues@v1.1
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

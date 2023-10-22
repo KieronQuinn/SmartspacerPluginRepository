@@ -1,0 +1,36 @@
+name: Transfer Plugin Ownership
+description: Transfer ownership of a Smartspacer Plugin to a new user
+title: "[Transfer]"
+labels: ["transfer_submission"]
+assignees:
+  - SmartspacerTest
+body:
+  - type: markdown
+    attributes:
+      value: |
+         This issue type is for updating the owner of a Smartspacer Plugin in the repository to a different GitHub user. 
+         
+         You **MUST** request this from the **current owner** of the plugin (usually the original account which created the plugin on the repo). 
+         
+         If this is not possible, open a general request and explain the situation. After validation, plugins can be transferred manually.
+  - type: input
+    id: package_name
+    attributes:
+      label: Package Name
+      description: The package name of your plugin you wish to transfer ownership of
+    validations:
+      required: true
+  - type: input
+    id: new_owner
+    attributes:
+      label: New owner GitHub username
+      description: The GitHub username of the user to transfer to.
+    validations:
+      required: true
+  - type: input
+    id: verify_new_owner
+    attributes:
+      label: Verify new owner GitHub username
+      description: Re-enter the GitHub username to transfer to, for verifcation.
+    validations:
+      required: true

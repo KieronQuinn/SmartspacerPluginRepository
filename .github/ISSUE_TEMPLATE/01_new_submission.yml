@@ -1,0 +1,65 @@
+name: New Plugin
+description: Submit a new Smartspacer Plugin
+title: "[Submission]"
+labels: ["submission"]
+assignees:
+  - SmartspacerTest
+body:
+  - type: markdown
+    attributes:
+      value: |
+         Thank you for submitting a Smartspacer Plugin. Please follow the required steps below. Your plugin submission will be reviewed before being allowed on the plugin repository.
+         
+         **Please only submit plugins you have created and uploaded. Submissions of other people's plugins will be rejected.**
+         
+         **Note:** You can edit your plugin's title, author, description, URL and packages at any time by using the "Update" issue type.  
+  - type: input
+    id: package_name
+    attributes:
+      label: Package Name
+      description: The package name of your plugin. This must be unique on the repository.
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: A short name for your plugin. Max length 50 chars, plainext (no links or markdown)
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Author
+      description: Your display name, which will be shown as the author of the plugin.
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Description
+      description: Enter a short description of your plugin. Max length 200 chars, plaintext (no links or markdown)
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Plugin URL
+      description: This needs to be a URL that points to a your raw update.json file, or a third party store page such as Google Play or F-Droid (update notifications only supported using update.json) 
+      placeholder: ex. https://raw.githubusercontent.com/...
+    validations:
+      required: true
+  - type: input
+    id: packages
+    attributes:
+      label: Supported Apps
+      description: "**Optional**: Enter a comma-separated list of the package names your plugin works with. This means Smartspacer will show your plugin in the \"Recommended\" section for users with that app installed."
+      placeholder: com.company.app,com.company2.app
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

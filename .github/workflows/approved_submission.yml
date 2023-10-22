@@ -1,0 +1,51 @@
+on:
+  issues:
+    types: [labeled]
+jobs:
+  setup:
+    if: ${{ github.event.label.name == 'submission_approved' }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      
+      - run: npm install request
+
+      - uses: stefanbuck/github-issue-praser@v3
+        id: issue-parser
+        with:
+          template-path: .github/ISSUE_TEMPLATE/01_new_submission.yml
+          
+      - run: node ./js/accepted_submission.js >> $GITHUB_OUTPUT
+        id: accepted
+        env:
+          ISSUE_USER_ID: ${{ github.event.issue.user.id }}
+          LABEL_USER_ID: ${{ github.event.sender.id }}
+          
+      - run: |
+            git config user.email "quinny898+sst@gmail.com"
+            git config user.name "SmartspacerTest"
+            git add plugins.json
+            git diff-index --quiet HEAD || git commit -m "Added new plugin"
+        
+      - run: git push
+        if: "${{ steps.accepted.outputs.result == 'true' }}"
+      
+      - name: Read comment.txt
+        id: comment
+        uses: juliangruber/read-file-action@v1
+        with:
+          path: ./comment.txt
+          
+      - uses: OSDKDev/unlock-issues@v1.1
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      - uses: peter-evans/close-issue@v1
+        with:
+          comment: "${{ steps.comment.outputs.content }}"
+          
+      - uses: OSDKDev/lock-issues@v1.1
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"

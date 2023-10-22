@@ -79,5 +79,14 @@
 		"description": "Notes & lists right from your lock screen",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlekeep/plugin.json",
 		"packages": "com.google.android.keep"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlemaps",
+		"name": "Google Maps Plugin for Smartspacer",
+		"description": "Traffic condition alerts",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlemaps/plugin.json",
+		"packages": "com.google.android.apps.maps"
 	}
 ]

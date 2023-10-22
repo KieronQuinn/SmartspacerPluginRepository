@@ -52,5 +52,14 @@
 		"description": "Monitor your data usage for mobile data or Wi-Fi",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/datausage/plugin.json",
 		"packages": ""
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.energymonitor",
+		"name": "Energy Monitor Plugin for Smartspacer",
+		"description": "Watch your connected or remote devices' battery levels",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/energymonitor/plugin.json",
+		"packages": "strange.watch.longevity.ion"
 	}
 ]

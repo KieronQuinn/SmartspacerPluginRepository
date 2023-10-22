@@ -106,5 +106,14 @@
 		"description": "Health statistic Complications",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/healthconnect/plugin.json",
 		"packages": ""
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.notifications",
+		"name": "Notifications Plugin for Smartspacer",
+		"description": "Notifications from WhatsApp, Facebook, Twitter and more",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/notifications/plugin.json",
+		"packages": ""
 	}
 ]

@@ -115,5 +115,14 @@
 		"description": "Notifications from WhatsApp, Facebook, Twitter and more",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/notifications/plugin.json",
 		"packages": ""
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugins.pokemongo",
+		"name": "Pokémon Go Plugin for Smartspacer",
+		"description": "Keep an eye on your incubated eggs and buddy distance",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/pokemongo/plugin.json",
+		"packages": "com.nianticlabs.pokemongo,com.nianticlabs.pokemongo.ares"
 	}
 ]

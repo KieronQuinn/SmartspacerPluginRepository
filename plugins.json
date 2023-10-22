@@ -70,5 +70,14 @@
 		"description": "Keep an eye on your investments",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlefinance/plugin.json",
 		"packages": ""
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlekeep",
+		"name": "Google Keep Plugin for Smartspacer",
+		"description": "Notes & lists right from your lock screen",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/googlekeep/plugin.json",
+		"packages": "com.google.android.keep"
 	}
 ]

@@ -133,5 +133,14 @@
 		"description": "Steps & sleep tracking from Samsung Health",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/samsunghealth/plugin.json",
 		"packages": "com.sec.android.app.shealth"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugins.sunrisesunset",
+		"name": "Sun Times Plugin for Smartspacer",
+		"description": "Sunrise and sunset times in a Complication",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/sunrisesunset/plugin.json",
+		"packages": ""
 	}
 ]

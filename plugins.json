@@ -151,5 +151,14 @@
 		"description": "Custom Tasker Targets, Complications and Requirements, with endless possibilities",
 		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/tasker/plugin.json",
 		"packages": "net.dinglisch.android.taskerm"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.uber",
+		"name": "Uber Plugin for Smartspacer",
+		"description": "Live ride status and car information in Smartspace",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/uber/plugin.json",
+		"packages": "com.ubercab"
 	}
 ]

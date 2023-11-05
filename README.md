@@ -13,6 +13,7 @@ To submit a plugin, first make a `plugin.json` file somewhere public, ideally on
 	"description": "Your plugin's description, this can be as long as you like, contain Markdown and links, and will be displayed by the app on the details page",
 	"download_url": "https://example.com/path-to-your-apk-direct-download.apk",
 	"version_code": 1,
+	"changelog": "Optional release notes for this version",
 	"required_package": "any.apps.that.must.be.installed",
 	"screenshots": ["https://example.com/path-to-screenshot.jpg", "https://example.com/path-to-another-screenshot.jpg"]
 }

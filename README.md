@@ -15,9 +15,13 @@ To submit a plugin, first make a `plugin.json` file somewhere public, ideally on
 	"version_code": 1,
 	"changelog": "Optional release notes for this version",
 	"required_package": "any.apps.that.must.be.installed",
+	"minimum_smartspacer_version": 0,
 	"screenshots": ["https://example.com/path-to-screenshot.jpg", "https://example.com/path-to-another-screenshot.jpg"]
 }
 ```
+
+**Note**: You can specify a minimum Smartspacer version if you require a certain feature (see the SDK docs), or omit it entirely.
+
 This JSON file is your responsibility, you can update it whenever you like with plugin updates, screenshots, etc. Simply update the version code to a higher number to trigger an "update". 
 
 Next, create an issue in this repository. Use the "New Plugin" option, and fill out all the required fields. 

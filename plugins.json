@@ -63,6 +63,15 @@
 		"packages": "strange.watch.longevity.ion"
 	},
 	{
+		"owner": "56438628",
+		"author": "pacjo",
+		"package_name": "nodomain.pacjo.smartspacer.plugin.genericweather",
+		"name": "Generic Weather Plugin",
+		"description": "Shows current weather condition and hourly forecast. Additionally it provides sunrise / sunset complication. By using Gadgetbridge's GenericWeather protocol it supports multiple apps.",
+		"url": "https://raw.githubusercontent.com/pacjo/SmartspacerPlugins/main/app/src/genericweather/plugin.json",
+		"packages": ""
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlefinance",

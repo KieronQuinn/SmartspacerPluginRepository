@@ -108,6 +108,15 @@
 		"packages": ""
 	},
 	{
+		"owner": "56438628",
+		"author": "pacjo",
+		"package_name": "nodomain.pacjo.smartspacer.plugin.localbattery",
+		"name": "Local Battery",
+		"description": "Allows you to see current battery level and remaining charging time when connected to power",
+		"url": "https://raw.githubusercontent.com/pacjo/SmartspacerPlugins/main/app/src/localbattery/plugin.json",
+		"packages": ""
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugin.notifications",

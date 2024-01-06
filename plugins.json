@@ -128,6 +128,15 @@
 	{
 		"owner": "56438628",
 		"author": "pacjo",
+		"package_name": "nodomain.pacjo.smartspacer.plugin.livelygreeting",
+		"name": "Lively Greeting Plugin",
+		"description": "Shows greeting messages to make your day just a little brighter",
+		"url": "https://raw.githubusercontent.com/pacjo/SmartspacerPlugins/main/app/src/livelygreeting/plugin.json",
+		"packages": ""
+	},
+	{
+		"owner": "56438628",
+		"author": "pacjo",
 		"package_name": "nodomain.pacjo.smartspacer.plugin.localbattery",
 		"name": "Local Battery",
 		"description": "Allows you to see current battery level and remaining charging time when connected to power",

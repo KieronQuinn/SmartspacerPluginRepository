@@ -54,6 +54,15 @@
 		"packages": ""
 	},
 	{
+		"owner": "56438628",
+		"author": "pacjo",
+		"package_name": "nodomain.pacjo.smartspacer.plugin.duolingo",
+		"name": "Duolingo Plugin",
+		"description": "Shows motivational messages from Duolingo",
+		"url": "https://raw.githubusercontent.com/pacjo/SmartspacerPlugins/main/app/src/duolingo/plugin.json",
+		"packages": "com.duolingo"
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugin.energymonitor",

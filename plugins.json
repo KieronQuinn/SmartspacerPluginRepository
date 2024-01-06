@@ -162,6 +162,15 @@
 		"packages": "com.sec.android.app.shealth"
 	},
 	{
+		"owner": "56438628",
+		"author": "pacjo",
+		"package_name": "nodomain.pacjo.smartspacer.plugin.sleepasandroid",
+		"name": "Sleep as Android Plugin",
+		"description": "Shows sleep messages from Sleep as Android",
+		"url": "https://raw.githubusercontent.com/pacjo/SmartspacerPlugins/main/app/src/sleepasandroid/plugin.json",
+		"packages": "com.urbandroid.sleep"
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.sunrisesunset",

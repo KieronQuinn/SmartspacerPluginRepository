@@ -54,6 +54,15 @@
 		"packages": ""
 	},
 	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.controls",
+		"name": "Device Controls Plugin for Smartspacer (ROOT)",
+		"description": "Show and interact with your Home Controls right from Smartspace",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/main/controls/plugin.json",
+		"packages": "com.google.android.apps.chromecast.app"
+	},
+	{
 		"owner": "56438628",
 		"author": "pacjo",
 		"package_name": "nodomain.pacjo.smartspacer.plugin.duolingo",

@@ -18,6 +18,15 @@
 		"packages": "com.amazon.mShop.android.shopping,in.amazon.mShop.android.shopping"
 	},
 	{
+		"owner": "56438628",
+		"author": "pacjo",
+		"package_name": "nodomain.pacjo.smartspacer.plugin.anki",
+		"name": "Anki Plugin",
+		"description": "Shows number of due cards (and estimated time for completion) from AnkiDroid app.",
+		"url": "https://raw.githubusercontent.com/pacjo/SmartspacerPlugins/main/app/src/anki/plugin.json",
+		"packages": "com.ichi2.anki,com.ichi2.anki.debug,com.ichi2.anki.a,com.ichi2.anki.b,com.ichi2.anki.c,com.ichi2.anki.d,com.ichi2.anki.e"
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.battery",

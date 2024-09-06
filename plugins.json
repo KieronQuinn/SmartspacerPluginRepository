@@ -225,6 +225,15 @@
 		"packages": "com.ubercab"
 	},
 	{
+		"owner": "49949593",
+		"author": "k2helix",
+		"package_name": "two.helix.smartspacer.usagedirect",
+		"name": "Usage Direct Plugin",
+		"description": "Get screen time info from usageDirect",
+		"url": "https://raw.githubusercontent.com/k2helix/UsageDirectPlugin/master/plugin.json",
+		"packages": "godau.fynn.usagedirect"
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.yahoosport",

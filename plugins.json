@@ -234,6 +234,15 @@
 		"packages": "godau.fynn.usagedirect"
 	},
 	{
+		"owner": "18373514",
+		"author": "Josh Friedman",
+		"package_name": "dev.joshfriedman.smartspacer.plugin.xdrip",
+		"name": "xDrip Plugin for Smartspacer",
+		"description": "Displays blood glucose readings from xDrip",
+		"url": "https://raw.githubusercontent.com/Jwiggiff/xDrip-Plugin-for-Smartspacer/main/plugin.json",
+		"packages": "com.eveningoutpost.dexdrip"
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.yahoosport",

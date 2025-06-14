@@ -90,6 +90,15 @@
 		"packages": "strange.watch.longevity.ion"
 	},
 	{
+		"owner": "114286084",
+		"author": "meilluer",
+		"package_name": "com.example.ainotification",
+		"name": "flashscore football",
+		"description": "Shows Football scores from flashscore app, Note:only set notifications for one game at a time otherwise data maybe in accurate. set notifications settings as- goalscorer,half-time score,final result,L…",
+		"url": "https://raw.githubusercontent.com/meilluer/SmartSpacer-Flashscore-plugin/main/plugin.json",
+		"packages": "eu.livesport.FlashScore_com"
+	},
+	{
 		"owner": "56438628",
 		"author": "pacjo",
 		"package_name": "nodomain.pacjo.smartspacer.plugin.genericweather",

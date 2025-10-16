@@ -9,6 +9,15 @@
 		"packages": "com.aftership.AfterShip"
 	},
 	{
+		"owner": "68902530",
+		"author": "sameerasw.com",
+		"package_name": "com.sameerasw.airsync",
+		"name": "AirSync - Continuity for Android",
+		"description": "See your mac device's battery and info right in the at a glance with Smartspacer",
+		"url": "https://play.google.com/store/apps/details?id=com.sameerasw.airsync",
+		"packages": ""
+	},
+	{
 		"owner": "56438628",
 		"author": "pacjo",
 		"package_name": "nodomain.pacjo.smartspacer.plugin.anki",

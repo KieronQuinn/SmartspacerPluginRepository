@@ -207,6 +207,15 @@
 		"packages": "com.urbandroid.sleep"
 	},
 	{
+		"owner": "114286084",
+		"author": "meilluer",
+		"package_name": "com.meilluer.smartspacer_cricket",
+		"name": "Smartspacer cricket",
+		"description": "Display scores of your followed cricket teams as available on cricbuzz",
+		"url": "https://raw.githubusercontent.com/meilluer/Smartspacer-cricket/refs/heads/main/plugin.json",
+		"packages": ""
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.sunrisesunset",

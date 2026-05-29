@@ -216,6 +216,15 @@
 		"packages": ""
 	},
 	{
+		"owner": "114286084",
+		"author": "meilluer",
+		"package_name": "com.meilluer.smartspacer_irctc",
+		"name": "Smartspacer IRCTC",
+		"description": "Dynamic plugin for IRCTC E-tickets shows ticket 4h before journey starts and auto hides 30 min after journey ends NOTE - A app-password is required for your account look here https://youtu.be/RhWOkgUM…",
+		"url": "https://raw.githubusercontent.com/meilluer/SmartSpacer-IRCTC-Ticket/refs/heads/main/plugin.json",
+		"packages": ""
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.sunrisesunset",

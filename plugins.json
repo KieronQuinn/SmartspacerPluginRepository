@@ -119,6 +119,15 @@
 	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlehealth",
+		"name": "Google Health Plugin for Smartspacer",
+		"description": "Health Metrics at your fingertips",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/refs/heads/main/googlehealth/plugin.json",
+		"packages": "com.fitbit.FitbitMobile"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlekeep",
 		"name": "Google Keep Plugin for Smartspacer",
 		"description": "Notes & lists right from your lock screen",

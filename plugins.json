@@ -128,6 +128,15 @@
 	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
+		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlehome",
+		"name": "Google Home Plugin for Smartspacer",
+		"description": "View and control your smart home devices from Google Home",
+		"url": "https://raw.githubusercontent.com/KieronQuinn/SmartspacerPlugins/refs/heads/main/googlehome/plugin.json",
+		"packages": "com.google.android.apps.chromecast.app"
+	},
+	{
+		"owner": "3430869",
+		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugin.googlekeep",
 		"name": "Google Keep Plugin for Smartspacer",
 		"description": "Notes & lists right from your lock screen",

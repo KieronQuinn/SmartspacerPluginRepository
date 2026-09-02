@@ -1,5 +1,14 @@
 [
 	{
+		"owner": "206107899",
+		"author": "RubCut",
+		"package_name": "com.rubcut.gis2smartspacer",
+		"name": "2GIS ETA for Smartspacer",
+		"description": "Adds two types of complications. They allow you to view the time in minutes and hours to any address/coordinates via the 2GIS API. Designed for countries supported by 2GIS (primarily the CIS and South…",
+		"url": "https://raw.githubusercontent.com/RubCut/2GIS-Smartspacer-Plugin/refs/heads/main/plugin.json",
+		"packages": ""
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugin.aftership",

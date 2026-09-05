@@ -18,6 +18,15 @@
 		"packages": "com.aftership.AfterShip"
 	},
 	{
+		"owner": "206107899",
+		"author": "RubCut",
+		"package_name": "com.rubcut.ainews",
+		"name": "AI News plugin",
+		"description": "Adds an AI news target: type any topic and a model writes the news for you. Works with Gemini, Claude, OpenAI, DeepSeek, OpenRouter, Groq, Mistral, Grok, Qwen, Ollama...",
+		"url": "https://raw.githubusercontent.com/RubCut/AI-news-Smartspacer-plugin/refs/heads/main/plugin.json",
+		"packages": ""
+	},
+	{
 		"owner": "68902530",
 		"author": "sameerasw.com",
 		"package_name": "com.sameerasw.airsync",

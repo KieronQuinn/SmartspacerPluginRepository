@@ -17,7 +17,7 @@ function getPlugin() {
 let plugin = getPlugin();
 
 function checkOwner(plugin) {
-	if(plugin.owner == author) return true;
+	if(isValidUserId(author) && plugin.owner === author) return true;
 	validation.writeComment(`Sorry, this plugin was submitted by a different GitHub user. You need to use the original user to transfer a plugin. If this is not possible, please open a general request and explain your situation and it can be transferred manually after some verification.`);
 	return false;
 }

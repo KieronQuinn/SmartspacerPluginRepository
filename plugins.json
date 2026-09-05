@@ -63,6 +63,15 @@
 		"packages": ""
 	},
 	{
+		"owner": "123465030",
+		"author": "Spottq",
+		"package_name": "dev.flexy.smartspacerforecast",
+		"name": "Daily Forecast",
+		"description": "Adds the Pixel-style Daily Forecast card to all devices. It shows today’s high, low, and weather conditions in the morning, and tomorrow’s forecast in the evening, using data from the Pixel Weather ap…",
+		"url": "https://raw.githubusercontent.com/Spottq/smartspacer-daily-forecast/main/plugin.json",
+		"packages": "com.google.android.apps.weather"
+	},
+	{
 		"owner": "3430869",
 		"author": "Kieron Quinn",
 		"package_name": "com.kieronquinn.app.smartspacer.plugins.datausage",

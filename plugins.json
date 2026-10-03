@@ -198,6 +198,15 @@
 		"packages": ""
 	},
 	{
+		"owner": "207518093",
+		"author": "Thomas Sturm",
+		"package_name": "com.noirdraco.hasensorsmartspacertarget",
+		"name": "Home Assistant Sensor",
+		"description": "Shows any Home Assistant entity state as a target, optionally only for certain states, and adds an \"at home\" requirement based on your presence. Requires Android 17+.",
+		"url": "https://raw.githubusercontent.com/WEITERFUNKEN-Thomas/HASensorSmartspacerTarget/main/plugin.json",
+		"packages": "io.homeassistant.companion.android,io.homeassistant.companion.android.minimal"
+	},
+	{
 		"owner": "56438628",
 		"author": "pacjo",
 		"package_name": "nodomain.pacjo.smartspacer.plugin.livelygreeting",

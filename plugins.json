@@ -207,6 +207,15 @@
 		"packages": "io.homeassistant.companion.android,io.homeassistant.companion.android.minimal"
 	},
 	{
+		"owner": "207518093",
+		"author": "Thomas Sturm",
+		"package_name": "com.noirdraco.hatimersmartspacertarget",
+		"name": "Home Assistant Timer",
+		"description": "Shows when a Home Assistant appliance sensor (washing machine, dryer, dishwasher) will be done, as a target. Requires Android 17+.",
+		"url": "https://raw.githubusercontent.com/WEITERFUNKEN-Thomas/HATimerSmartspacerTarget/main/plugin.json",
+		"packages": "io.homeassistant.companion.android,io.homeassistant.companion.android.minimal"
+	},
+	{
 		"owner": "56438628",
 		"author": "pacjo",
 		"package_name": "nodomain.pacjo.smartspacer.plugin.livelygreeting",
